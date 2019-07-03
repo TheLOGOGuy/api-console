@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - api-console-builder > polymer-build > plylog > @types/winston > winston > async > lodash:
+        patched: '2019-07-03T22:12:21.320Z'
+    - api-console-builder > polymer-build > polymer-project-config > plylog > @types/winston > winston > async > lodash:
+        patched: '2019-07-03T22:12:21.320Z'
