@@ -7,9 +7,13 @@
   ],
   "private": true,
   "scripts": {
-    "build": "node build.js"
+    "build": "node build.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
-    "api-console-builder": "^0.1.0"
-  }
+    "api-console-builder": "^0.1.0",
+    "snyk": "^1.192.0"
+  },
+  "snyk": true
 }
