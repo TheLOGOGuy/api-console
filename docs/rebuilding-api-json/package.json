@@ -10,7 +10,7 @@
     "build-console": "node build.js"
   },
   "dependencies": {
-    "api-console-builder": "^0.1.0",
+    "api-console-builder": "^1.0.0",
     "raml-json-enhance-node": "^0.2.1"
   }
 }
